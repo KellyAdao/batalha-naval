@@ -1,0 +1,66 @@
+# 🛳️ Batalha Naval em C
+
+Este é um projeto simples de Batalha Naval desenvolvido em linguagem C. Ele foi dividido em três módulos crescentes de dificuldade: criação do tabuleiro, posicionamento de navios e aplicação de habilidades especiais com áreas de efeito.
+
+---
+
+## 🎯 Objetivos
+
+- Representar o tabuleiro do jogo com matrizes (`int tabuleiro[10][10]`)
+- Posicionar navios horizontal, vertical e diagonalmente
+- Aplicar habilidades especiais (cone, cruz e octaedro) com base em coordenadas
+- Visualizar o resultado no terminal com símbolos representativos
+
+---
+
+## 📦 Organização do Projeto
+
+### Estruturas utilizadas:
+
+- **Matrizes 2D** (`10x10`)
+- **Laços aninhados** (`for`)
+- **Condicionais** (`if`)
+- **Funções separadas** para modularidade
+
+---
+
+## 🔧 Como executar
+
+1. Copie o código-fonte (`.c`) em um editor C (como Code::Blocks, Dev-C++, Replit, etc.)
+2. Compile e execute o programa.
+3. O terminal exibirá o tabuleiro antes e depois da aplicação das habilidades.
+
+---
+
+## 🔁 Funcionalidades
+
+### ✅ Representação do tabuleiro
+
+- `[~]` → Água
+- `[N]` → Navio
+- `[*]` → Área afetada por ataque especial
+
+### ✅ Habilidades especiais implementadas:
+
+- `Cruz`: centro + 4 lados (↑ ↓ ← →)
+- `Cone`: 3 posições diagonais superiores
+- `Octaedro`: todas as 8 posições ao redor
+
+---
+
+## 🧠 Lógica do tabuleiro
+
+```c
+0 = água
+1 = navio
+2 = ataque especial
+
+## Aprendizados Técnicos
+
+- Manipulação de matrizes para representar o tabuleiro do jogo.
+- Uso de estruturas de repetição aninhadas para percorrer linhas e colunas.
+- Aplicação de estruturas condicionais para controlar regras e efeitos especiais no tabuleiro.
+
+Este projeto foi uma prática completa desses conceitos na linguagem C, com foco na construção da lógica do jogo Batalha Naval.
+
+```
