@@ -50,12 +50,12 @@ Este é um projeto simples de Batalha Naval desenvolvido em linguagem C. Ele foi
 
 ## 🧠 Lógica do tabuleiro
 
-```c
 0 = água
 1 = navio
 2 = ataque especial
 
-## Aprendizados Técnicos
+
+## ⚙️ Aprendizados Técnicos
 
 - Manipulação de matrizes para representar o tabuleiro do jogo.
 - Uso de estruturas de repetição aninhadas para percorrer linhas e colunas.
@@ -63,4 +63,3 @@ Este é um projeto simples de Batalha Naval desenvolvido em linguagem C. Ele foi
 
 Este projeto foi uma prática completa desses conceitos na linguagem C, com foco na construção da lógica do jogo Batalha Naval.
 
-```
